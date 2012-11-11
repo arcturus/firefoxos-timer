@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Timer</title>
+
+    <link rel="stylesheet" href="style/headers/headers.css">
+    <link rel="stylesheet" href="style/buttons/buttons.css">
+
+    <script type="text/javascript" defer src="js/timer.js"></script>
+
+    <style type="text/css">
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        background-color: #fff;
+      }
+      body {
+        background: none;
+      }
+      section[role="region"] {
+        margin-bottom: 1.5rem;
+        position: relative;
+      }
+
+      body[role="application"] div {
+        padding: 2rem;
+      }
+
+      #controls {
+
+      }
+
+      #timer {
+        height: 20rem;
+      }
+
+      #time {
+        font: 10rem/2.2rem Open Sans, Sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 10rem;
+      }
+    </style>
+
+    <script>
+    </script>
+  </head>
+
+  <body role="application">
+
+    <section role="region" class="skin-dark">
+      <header>
+        <h1>Timer</h1>
+      </header>
+    </section>
+
+    <section id="timer" role="region">
+      <div id="time">00:00</div>
+    </section>
+
+    <section id="controls" role="region" class="skin-dark">
+      <div>
+        <button id="start" class="recommend">Start</button>
+        <button id="pause" disabled>Pause</button>
+        <button id="reset" disabled class="danger">Reset</button>
+      </div>
+    </section>
+
+  </body>
+
+</html>
