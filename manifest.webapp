@@ -1,6 +1,7 @@
 {
   "name": "Timer",
   "description": "Timer App",
+  "type": "web",
   "launch_path": "/firefoxos-timer/index.html",
   "developer": {
     "name": "Francisco Jordano",
